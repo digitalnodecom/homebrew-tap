@@ -1,24 +1,24 @@
 class Phpless < Formula
   desc "CLI for the PHPless serverless PHP platform"
   homepage "https://github.com/digitalnodecom/phpless"
-  version "0.3.0"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/digitalnodecom/phpless/releases/download/cli/v#{version}/phpless-darwin-arm64"
-      sha256 "7311be25c261a1d0473408a17a9b9bf952343346728d3640ca515674ebc5c88b"
+      sha256 "2f08fe8ef6a1b90d1bd7e930444e283e41e848a5e30d9bc3654dfb17d9866db4"
     end
     on_intel do
       url "https://github.com/digitalnodecom/phpless/releases/download/cli/v#{version}/phpless-darwin-amd64"
-      sha256 "de619396d5450b804385915399d5d38057b41c26d51c443f3b4bdc9e9952fdf0"
+      sha256 "7d2045ea8fb15de4d7a43549c8892020644771443ba2c363d084fc1d1ab5e4d1"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/digitalnodecom/phpless/releases/download/cli/v#{version}/phpless-linux-amd64"
-      sha256 "947ccd3f2c107ecd49a9748ecfe2fab6c991133a654a5554f3f77cb55ef7fc6e"
+      sha256 "158290c3f00fb708c07c801ab62905f7ad2aa8b0aff2b4a0148a337390d0c8d9"
     end
   end
 
