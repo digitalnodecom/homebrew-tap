@@ -1,13 +1,13 @@
 cask "burd" do
-  version "1.11.6"
+  version "1.11.7"
 
   on_arm do
-    sha256 "4f9250befdf9e4218a7824a20dfa28efc2e5c74b4d16ee721c25ef465ca1d92a"
+    sha256 "5b298dc20f78857b808ab1b8450c791870ead20faa7064139bf01d382c5c491f"
 
     url "https://github.com/digitalnodecom/burd/releases/download/v#{version}/Burd_#{version}_aarch64.dmg"
   end
   on_intel do
-    sha256 "1e4dad0cc8fa6674cadaf33ec45cc086c7abaced8f70ae8ff9ff6db97ec6e17a"
+    sha256 "166c9fcf534352fbcaf9380d20049d48448edc150ff2b1f65b9dc8dd76198605"
 
     url "https://github.com/digitalnodecom/burd/releases/download/v#{version}/Burd_#{version}_x64.dmg"
   end
