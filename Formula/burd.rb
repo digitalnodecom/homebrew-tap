@@ -1,17 +1,17 @@
 class Burd < Formula
   desc "Local development environment manager for macOS (CLI)"
   homepage "https://github.com/digitalnodecom/burd"
-  version "1.13.1"
+  version "1.14.0"
   license "PolyForm-Noncommercial-1.0.0"
 
   on_macos do
     on_arm do
       url "https://github.com/digitalnodecom/burd/releases/download/v#{version}/burd-darwin-aarch64"
-      sha256 "d715eef1aa81aac163c51bd1c7e8b421aec04f81d4aefe7778d562073c10e223"
+      sha256 "8a6ff4616489ce96d5f84e9fb6a873f63d0b136402ef62263e6e77b32d3108e5"
     end
     on_intel do
       url "https://github.com/digitalnodecom/burd/releases/download/v#{version}/burd-darwin-x64"
-      sha256 "e695ef4fa3196e065c2d5970405dfc290c57ea9534839214bbbfb899e6eaab26"
+      sha256 "61d81be84e9e55d60bc7c7795ea962824878fc21c94dc5e3f6b0bdacc217897c"
     end
   end
 
